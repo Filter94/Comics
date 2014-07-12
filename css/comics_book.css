@@ -1,0 +1,486 @@
+body {
+    font-family: Oswald, regular, serif;
+    width: 1017px;
+    background-color: #363636; /* Цвет фона веб-страницы */
+    background-image: url("../img/dark-wood.jpg");
+    background-position: center;
+    background-size: 1017px;
+    background-repeat:repeat-y;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    list-style-type: none;
+    margin-top: auto;
+}
+
+nav {
+    height:101px;
+    font-weight:bold;
+    font-size: 45.55px;
+}
+
+.Menu_item {
+    font-family: Oswald, normal, serif;
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-top: 25px;
+    float: right;
+    margin-top: auto;
+    margin-right: auto;
+    list-style-type: none;
+    color: #BDAFAC;
+    text-decoration: none;
+}
+
+.Menu_item:hover {
+    color: #FFFFFF;
+}
+
+.Logo {
+     padding-left: 50px;
+     padding-right: 30px;
+     float: left;
+     margin-top: auto;
+     list-style-type: none;
+ }
+
+.News {
+    background-image: url("../img/books.bmp");
+    background-repeat: no-repeat;
+    width: 1017px;
+    height: 276px;
+    padding-top: 160px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.Item_text {
+    margin-top: 15px;
+    background: rgba(255,237,146,.4);
+    color: #000000;
+    padding-left: 94px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.Item_header {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.1em;
+    font-family: Oswald, regular, serif;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.Item_body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Oswald, light, serif;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 1.1em;
+    padding-top: 10px;
+}
+
+.Circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(255,237,146,0.65);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.Circle:hover {
+    background: rgba(155,255,255,0.65);
+}
+
+.Left_circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    float: left;
+}
+
+.Right_circle {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    
+}
+
+.Arrow {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Circle_gray {
+    float: left;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgba(194,194,194,0.65);
+}
+
+.Circle_gray:hover {
+    background: rgba(255,255,255,1);
+}
+
+.Circles {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
+.About{
+    text-align: center;
+    color: #e4d4d1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header {
+    font-family: Bangers, regular, serif;
+    color: #ffed92;
+    font-weight: normal;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 55pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.About_content{
+    margin-top: 20px;
+    width: 505px;
+    color: #e4d4d1;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2em;
+}
+
+.Summary{
+    font-size: 44px;
+    line-height: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Description_header{
+    width: 260px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1em;
+    margin-top: 55;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Picture{
+    font-family: Bangers, regular, serif;
+    color: #ffed92;
+    font-weight: normal;
+    width: 270px;
+    margin-bottom3: 20px;
+    font-size: 34pt;
+    float: left;
+    text-align: center;
+    margin-right: 50px
+}
+
+.Picture_header{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.Description{
+    float:left;
+}
+
+.Advantages_text{
+    padding-top: 25px;
+}
+
+.Advantages_item{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 100px;
+    weigth: 85px;
+    font-size: 39px;
+    line-height: 1.2em;
+    margin-bottom: 75px;
+}
+
+.Pictogram{
+    float: left;
+    margin-right: 35px;
+}
+
+.Photo {
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 225px;
+    padding-top: 110px;
+    margin-top: 35px;
+    float: left;
+    text-align: center;
+    margin-right:7px
+}
+
+.Photo_header {
+    display: flex;
+    align-self: center;
+    margin-top: 15px;
+    background: rgba(255,237,146,.4);
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 45px;
+    font-size: 22pt;
+    padding-top: 12px;
+    tet-align: left;
+}
+
+.Photo1{
+    background-image: url("../img/comics books.png");
+}
+
+.Photo2{
+    background-image: url("../img/people.png");
+}
+
+.Photo3{
+    background-image: url("../img/building.png");
+}
+
+.Feedback{
+}
+
+.Feedback_item{
+    display: flex;
+    align-items: center;
+    height: 220px;
+    margin-top: 75px;
+    line-height: 1em;
+}
+
+.Feedback_photo{
+    background-repeat: no-repeat;
+    min-width: 220px;
+    height: 220px;
+    float: left;
+}
+
+.Feedback_text{
+    font-family: Oswald, light, serif;
+    font-size: 36px;
+    width: 585px;
+    font-weight: 300;
+    margin-left: 25px;
+    text-align: left;
+    line-height: 1;
+}
+
+.Feedback_author{
+    font-weight: 700;
+    padding-top: 25px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.Feedback_authors_country{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.form::-webkit-input-placeholder{
+    color: #7f7878;
+}
+
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    font-family: Oswald, light, serif;
+    font-size: 36px;
+    color: #7f7878;
+    font-weight: 300;
+    background: none;
+    border: solid;
+    border-width: 3px;
+    border-color: #e1e1e1;
+    padding-left: 10px;
+    float: left;
+}
+
+.Feedback_form{
+    margin-left: 75px;
+    margin-top: 60px;
+    width: 820px;
+    height: 520px;
+}
+
+.small_form{
+    width: 430px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.Message_form {
+    width: 430px;
+    resize: none;
+    float: left;
+    padding-bottom: 42px;
+    padding-right: 0px;
+}
+
+.Tip{
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-family: Oswald, light, serif;
+    color: #e4d4d1;
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    width: 350px;
+    float: left;
+    line-height: 1.2;
+}
+
+.Contacts{
+    font-family: Oswald, regular, serif;
+    color: #e4d4d1;
+    font-size: 24px;
+    font-weight: 400;
+    width: 375px;
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.Tel{
+     font-family: Oswald, regular, serif;
+     color: #e4d4d1;
+     font-size: 24px;
+     font-weight: 400;
+     width: 300px;
+ }
+
+.Form_string{
+    margin-top: 3px;
+    heigth: 100px;
+}
+
+.inputs{
+    width: 820px;
+    height: 470px;
+}
+
+.send{
+    width: 98px;
+    heigth: 46px;
+    float: left;
+}
+
+.cross{
+    margin-top: 4px;
+    width: 21px;
+    height: 19px;
+    border: 8px solid #a2191e;
+    border-radius: 50%;
+    background-color: #a2191e;
+    float: left;
+}
+
+.form_bottom{
+    margin-top: -5px;
+    height: 45px;
+    width: 900px;
+}
+
+.errors{
+    margin-left: 40px;
+    float: left; 
+    display: block;
+    --display: none;
+}
+
+.error{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #ed1c24;
+    float: left;
+}
+
+.email_error{
+    display: none;
+   display: block;
+}
+
+.name_error{
+    display: none;
+    --display: block;
+}
+
+.Logo_footer{
+    float: left;
+    width: 179px;
+    heigth: 101px;
+}
+
+.footer_links{
+    height: 90px;
+}
+
+.Social {
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 120px;
+    padding-top: 10px;
+    float: right;
+    list-style-type: none;
+    color: #BDAFAC;
+    text-decoration: none;
+}
+
+.Social:hover {
+    color: #FFFFFF;
+}
+
+.To_start{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 90%;
+    height: 212px;
+    margin-left: 60px;
+}
+
+.Copyright{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgba(255, 247, 153, 0.4);
+    font-size: 36px;
+}
